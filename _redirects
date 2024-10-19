@@ -1,0 +1,4 @@
+/:__PREFIX(~)/:__PATH(.+) /api/image
+/:__PREFIX(ajax|rpc|.+\\.php)/:__PATH* /api/http
+/api/illust/random /api/random
+/-/:__PATH* https://i.pixiv.zuanzuon.top/:__PATH
